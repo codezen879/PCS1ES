@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.b1
+{
+    padding: 10px;
+    background: black;
+    height: 600px;
+}
+.b2{
+    padding:10px;
+    background-color:rgb(215, 240, 215);
+    height: 580px;
+    display: flex;
+    
+}
+
+#imgprf{
+    height: 250px;
+    width: 185px;
+    border-radius: 60%;
+    margin-left: 170px;
+    margin-top: 80px;
+}
+#hding {
+    position: absolute;
+    width: 200px;
+    margin-top: 240px;
+    margin-left: 359px;
+    
+}
+#txxt{
+   
+    position: absolute;
+    margin-right: 0px;
+    text-align: center;
+}
