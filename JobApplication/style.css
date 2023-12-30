@@ -18,28 +18,30 @@ body {
     background: rgba(255, 255, 255, 1);
     height: 13%;
     margin-bottom: 0px;
-    width:45%;
+    width:60%;
     border-top-left-radius: 12px;  /* Adjust the radius as needed */
     border-top-right-radius: 12px
 }
 
 .c2 {
-    background-color: rgb(107, 138, 83);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
     height: 32%;
     margin-bottom: 0px;
-    width:45%;
+    width:60%;
 }
 
 .c3 {
     background-color: rgb(74, 80, 69);
     height: 22%;
     margin-bottom: 0px;
-    width:45%;
+    width:60%;
 }
 .c4{
     height: 32%;
     background-color: antiquewhite;
-    width:45%;
+    width:60%;
     border-bottom-left-radius: 12px;  /* Adjust the radius as needed */
     border-bottom-right-radius: 12px
 }
@@ -71,32 +73,85 @@ body {
     align-items: center;
    
 }
-#c2c2i1{
-    width: 295px;
-    height: 45px;
+#c2c1i1{
+    width: 330px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px;
-}
-#c2c2i2{
-    width: 295px;
-    height: 45px;
+
+    border: 4px;
+    border: 1px solid rgb(209, 200, 200);
+} 
+#c2c1i2{
+    width: 330px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px;
     margin-left: 35px;
+    border: 4px;
+    border: 1px solid rgb(209, 200, 200);
    
 }
-#c2i3{
-    width: 280px;
-    height: 45px;
-    border-radius: 5px;
-    border: 1px;
-}
-#c2s1{
-    width: 280px;
-    height: 45px;
-    border-radius: 5px;
-    border: 1px;
-}
+
+
 .c2c1{
     display: flex;
+}
+
+#c2c1l2{
+    margin-left: 280px;
+    height: 20px;
+}
+#c2c1l1{
+    margin-left: 63px;
+    height: 20px;
+}
+.c2d1{
+    height: 20px;
+    width: 100%;
+}
+.c2d2{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.c2d3{
+    margin-top: 30px;
+    height: 20px;
+    width: 100%;
+}
+.c2d4{
+    margin-top: 0px;
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#c2c2i1{
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 200, 200);
+    
+} 
+#c2c2s1{
+    width: 330px;
+    height: 42px;
+    border-radius: 5px;
+    margin-left: 35px;
+    border: 1px solid rgb(209, 200, 200);
+   
+}
+#c2c2l2{
+    margin-left: 323px;
+    height: 20px;
+}
+#c2c2l1{
+    margin-left: 63px;
+    height: 20px;
+}
+input[type="text"]::placeholder {
+             
+    /* Firefox, Chrome, Opera */
+    text-indent: 15px;
+   
 }
