@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+     height: 100vh; /* Ensure a minimum height for the container */
+    }
+.HeaderSection{
+background: #FFFFFF;
+height: 15%;
+background-attachment: fixed;
+display: flex;
+justify-content:space-between;
+top: 0;
+box-shadow: 3px 3px 5px 6px #ccc;
+position: sticky;
+}
+.CotentSection1{
+    background-color: #FFFFFF;
+    height: 100%;
+    
+}
+.CotentSection2{
+    background-color: rgb(46, 46, 56);
+    height: 120%;
+   
+}
+.FooterSection{
+    background-color: rgb(156, 156, 188);
+    height: 32%;
+   
+}
+.icon {
+    color: rgb(0, 0, 0); /* Set the color of the icon to grey */
+    font-size: 220%;
+    font-weight: 700;
+    margin-top: 1.7%;
+    margin-right: 10.4%;
+}
+.logo{
+    margin-top: 0.7%;
+    margin-left: 10.4%;
+}
+
