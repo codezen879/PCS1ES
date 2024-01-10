@@ -7,23 +7,25 @@ body {
   line-height: 1.4;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
+  height: 200vh;
+  box-sizing: border-box;       
 }
 .container {
      height: 100vh; /* Ensure a minimum height for the container */
     }
 .HeaderSection{
-background: #FFFFFF;
-height: 15%;
-background-attachment: fixed;
-display: flex;
-justify-content:space-between;
-top: 0;
-box-shadow: 3px 3px 5px 6px #ccc;
-position: sticky;
+    background: #FFFFFF;
+    height: 7.5%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
 }
 .CotentSection1{
     background-color: #FFFFFF;
-    height: 100%;
+    height: 110%;
     
 }
 .CotentSection2{
@@ -48,3 +50,26 @@ position: sticky;
     margin-left: 10.4%;
 }
 
+.cs1d1{
+    height: 68%;
+    background-color: aquamarine;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+
+}
+.cd11{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+.cd12{
+    height: 100%;
+    background-color: rgb(11, 10, 10);
+    width: 50%;
+}
+.cd11 img{
+    height: 100%;
+    width: 97%;
+}
