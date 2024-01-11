@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,
+body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.bimg{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/developer.png);
+    color: antiquewhite;
+    
+    text-align: left;
+    font-weight: 500;
+    font-style: Roboto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-attachment: fixed;
+    
+}
+#s1{
+    margin-top: 9%;
+    font-size: 30px;
+    margin-left: 25%;
+}
+#s2{
+    margin-left: 25%;
+    font-size: 50px;
+}
+.d1{
+    height: 30%;
+    background:#161619;
+    padding: 10px;
+}
+.section2{
+    height: 75%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+.cards1{
+    margin-top: 3.5%;
+    height: 78%;
+    background-color: rgb(248, 252, 250);
+    width: 20%;
+    border-radius: 2%;
+   
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.section3{
+    height: 50%;
+    background-color: rgb(180, 209, 137);
+    display: flex;
+   
+}
+
+.s31{
+height: 100%;
+width: 50%;
+background-color: #515603;
+}
+.s32{
+    height: 100%;
+    width: 50%;
+    background-color:#722300 ;
+}
+
+.footer1{
+padding-top: 30px;
+height: 10%;
+background: black;
+}
+img{
+    width: 100%;
+}
+.section3 .s31 h1 {
+    color: white;
+    margin: 8%;
+    font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  color: white;
+  }
+  .section3 .s32 h1 {
+    color: white;
+    margin: 8%;
+    font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  color: white;
+  }
+  .section3 .s31 span,
+.section3 .s32 span {
+  display: block; /* Make span behave as block */
+  text-align: left; /* Align text to the left */
+  padding: 10px 0; /* Add padding top and bottom */
+  margin-left: 20px; /* Add left margin */
+  color: antiquewhite;
+}
+.spacer {
+    height: 20px; /* Adjust the height to match the desired margin-top */
+    background: transparent; /* Optional: for visual indication of space */
+  }
+  .footer1 h1 {
+    /* Your other styles for the footer h1 */
+    color: white;
+    text-align: center;
+  }
+  .d1 span{
+    display: block;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
