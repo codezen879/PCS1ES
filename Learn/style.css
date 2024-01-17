@@ -1,0 +1,29 @@
+*{ box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    background: #bb3636;
+    display: flex;
+    box-sizing: border-box;
+   
+   
+}
+.c1 {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    height: 98%;
+    width: 99%;
+    margin-top: 1%;
+    /* Add bottom margin */
+}
+
+.c2{
+    background-color: rgb(59, 73, 68);
+    height: 50%;
+}
