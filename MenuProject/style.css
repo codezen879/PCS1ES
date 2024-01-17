@@ -11,7 +11,9 @@ body {
   box-sizing: border-box;       
 }
 .container {
-     height: 100vh; /* Ensure a minimum height for the container */
+     height: 100vh; 
+     max-height: 800px;
+     /* Ensure a minimum height for the container */
     }
 .HeaderSection{
     background: #FFFFFF;
@@ -175,3 +177,19 @@ margin-bottom: 12%;
     margin: 10px auto; /* Center the line with top and bottom margins */
     filter: brightness(170%);
 }
+@media screen and (max-width: 375px) {
+    .cs1d1 {
+        display: flex;
+    flex-direction: column;
+    height: 200%;
+    }
+    .cd11 {
+        width: 100%;
+        height: 40%;
+    }
+    .cd122{
+        width: 100%;
+    }
+  }
+  
+  
