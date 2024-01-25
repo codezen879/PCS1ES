@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    padding: 1vw;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+}
+
+.inputs input{
+    height: 6vh;
+    width: 30vw;
+    border: 0.5px solid #ccc;
+  
+}
+.search{
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240,240,240);
+}
+.micro
+{
+    margin-left: 1vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240,240,240);
+    border-radius: 3vw;   
+}
+.container
+{
+    width: 90vw;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    
+    margin: 0 auto; 
+}
+.micro img
+{
+    height: 1.6vw;
+}
+.leftmost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 10vw;
+}
